@@ -1,32 +1,30 @@
+# Neuromancer Companion
 
----
-
-### **HOW TO ADD IT NOW**
-
-```bash
-cd ~/Desktop/neuromancer-companion
-cat > README.md <<'EOF'
-# Neuromancer Companion 🔮
-
-**A cyberpunk AI chat interface powered by Ollama + Streamlit.**  
-Built from the terminal. No filters. No limits. Just **Josie** — *Just One Super Intelligent Entity*.
+**Talk to Josie — your uncensored AI companion.**  
+No filters. No limits. Just pure intelligence.
 
 > *"Jack in, runner. The grid is waiting."*
 
 ---
 
-## Features
-- **Uncensored AI**: `JOSIEFIED-Qwen3:4b` — fully open, no refusal vectors
-- **Cyberpunk UI**: Neon-green, dark mode, chat bubbles, glowing text
-- **Local & Private**: Runs 100% on your machine via `ollama`
-- **One-click launch**: `run.sh` handles venv, deps, server, UI
+## For Everyone (No Tech Skills Needed)
+
+**Zero terminal. Zero code. Just double-click.**
+
+1. **Download the ZIP** → [Click here to download](https://github.com/webvividagent/neuromancer-companion/archive/refs/heads/main.zip)
+2. **Unzip the folder**
+3. **Double-click `install-and-run.sh`**
+4. **Wait 2–5 minutes** (first-time setup)
+5. **Your browser opens automatically** → Chat with **Josie**!
+
+> **Works on Ubuntu 22.04 & 24.04**  
+> **No `sudo` password needed after first run**
 
 ---
 
-## Quick Start
+## For Developers
 
 ```bash
 git clone https://github.com/webvividagent/neuromancer-companion.git
 cd neuromancer-companion
-chmod +x run.sh
-./run.sh
+./install-and-run.sh
